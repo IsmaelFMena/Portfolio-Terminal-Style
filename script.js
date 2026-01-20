@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // --- Typewriter Effect ---
   const typewriterElement = document.getElementById("typewriter");
-  const phrases = ["Ismael Flores Mena", "Developer", "Fullstack"];
+  const phrases = ["Developer", "Fullstack"];
   let phraseIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const subject = encodeURIComponent(`[Portfolio] Mensaje de ${name}`);
       const body = encodeURIComponent(`De: ${name} <${email}>\n\n${message}`);
-      const mailtoLink = `mailto:devismaelfmena@gmail.com?subject=${subject}&body=${body}`;
+      const mailtoLink = `mailto:YOURMAIL@EXAMPLE.com?subject=${subject}&body=${body}`;
 
       window.location.href = mailtoLink;
 
